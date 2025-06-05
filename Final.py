@@ -124,7 +124,7 @@ def plot_harmonic_intensity_ratio(cleaned_data):
     x_values_doi =  [x[0] for x in distances.values()]
     y_values = []
 
-    fig, axs = plt.subplots(4, 2, figsize=(15, 10))
+    fig, axs = plt.subplots(4, 2, figsize=(10, 10))
     
     s=0
 
